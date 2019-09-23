@@ -2,27 +2,61 @@
 <html lang="vi">
 
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <title>Thông tin nhóm PPQ</title>
   <link rel="icon" href="images/icon.png">
 </head>
 
 <body>
-  <div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <a class="navbar-branch" href="#">
+      <strong style="color: white">Logo PPQ</strong>
+    </a>
+    <ul class="navbar-nav ml-auto nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Trang chủ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Thông tin</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
     <ul>
       <li><strong>Tên nhóm: </strong>PPQ</li>
       <li><strong>Danh sách thành viên: </strong></li>
-      <ol>
-        <li>Hoàng Văn Phúc (1712666)</li>
-        <li>Đoàn Nguyễn Tấn Phúc (1712665)</li>
-        <li>Trương Minh Quân (1712695)</li>
-      </ol>
     </ul>
-    <img src="images/ppq.jpg" alt="image" width="800px" usemap="#mymap">
+    <table class="table table-bordered table-hover text-center">
+      <tr class="thead-dark">
+        <th>TT</th>
+        <th>Họ tên</th>
+        <th>MSSV</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Hoàng Văn Phúc</td>
+        <td>1712666</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Đoàn Nguyễn Tấn Phúc</td>
+        <td>1712665</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Trương Minh Quân</td>
+        <td>1712695</td>
+      </tr>
+    </table>
+    <div class="text-center">
+    <img class="img-fluid rounded" src="images/ppq.jpg" alt="image" width="800px" usemap="#mymap">
     <map name="mymap">
       <area shape="rect" coords="180,415,330,109"  href="members/1712665/1712665.html" alt="1712665" title="1712665">
       <area shape="rect" coords="331,416,460,110" href="members/1712666/1712666.html" alt="1712666" title="1712666">
       <area shape="rect" coords="461,111,610,415" href="members/1712695/1712695.html" alt="1712695" title="1712695">
     </map>
+    </div>
   </div>
 </body>
 
